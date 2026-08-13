@@ -1,6 +1,6 @@
 # AI RAG Knowledge Assistant
 
-A production-style Retrieval-Augmented Generation (RAG) pipeline built from scratch — no LangChain, no shortcuts.
+A production-style Retrieval-Augmented Generation (RAG) pipeline built from scratch-no LangChain, no shortcuts.
 
 ## What it does
 
@@ -27,19 +27,19 @@ LLM (OpenRouter / Bedrock)
 ## Tech Stack
 
 - **Python 3.12**
-- **FastAPI** — REST API
-- **sentence-transformers** — local embeddings (no API key needed)
-- **FAISS** — local vector search
-- **OpenRouter** — LLM API (swappable with AWS Bedrock)
-- **Docker** — containerization (Phase 5)
-- **AWS** — S3, OpenSearch, Bedrock (Phase 5)
+- **FastAPI**-REST API
+- **sentence-transformers**-local embeddings (no API key needed)
+- **FAISS**-local vector search
+- **OpenRouter**-LLM API (swappable with AWS Bedrock)
+- **Docker**-containerization (Phase 5)
+- **AWS**-S3, OpenSearch, Bedrock (Phase 5)
 
 ## Project Phases
 
 | Phase | Description | Status |
 |-------|-------------|--------|
 | 1 | FastAPI skeleton with `/` and `/health` endpoints | ✅ Done |
-| 2 | Document ingestion — PDF and TXT support | ✅ Done |
+| 2 | Document ingestion-PDF and TXT support | ✅ Done |
 | 3 | Chunking + embeddings + FAISS vector search | ✅ Done |
 | 4 | LLM integration + `POST /ask` endpoint | ✅ Done |
 | 5 | OpenSearch + Docker + AWS (S3, Bedrock) | 🔄 In progress |
@@ -92,4 +92,4 @@ curl -X POST http://127.0.0.1:8000/ask \
 
 ## Author
 
-Vasanth Kumar Pulkam — Data Engineer / AI Engineer
+Vasanth Kumar Pulkam-Data Engineer / AI Engineer
