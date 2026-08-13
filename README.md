@@ -6,7 +6,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![FAISS](https://img.shields.io/badge/FAISS-vector_search-0467DF)](https://faiss.ai)
 [![Sentence Transformers](https://img.shields.io/badge/sentence--transformers-local_embeddings-FFB000)](https://sbert.net)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
@@ -192,9 +191,7 @@ ai-rag-assistant/
 - No chunk re-ranking — top-3 by L2 distance only
 - `tests/` is scaffolded but empty
 
-## License
 
-MIT — see [LICENSE](LICENSE).
 
 ## Author
 
